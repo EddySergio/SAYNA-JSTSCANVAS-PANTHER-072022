@@ -134,7 +134,7 @@ nav ul li a:hover{
     align-items: center;
 }
 #hero .hero-texte{
-    animation: fadeInRight 1500ms ease-in-out;
+    animation: fadeInRight 3s ease-in-out;
 }
 #hero h2{
     font-size: 22px;
@@ -388,7 +388,7 @@ footer .tk{
 @keyframes fadeInRight {
     0% {
         opacity: 0;
-        transform: translateX(-1000px) scale(0.1);
+        transform: translateX(-500px) scale(0.1);
     }
     100% {
         opacity: 1;
@@ -404,8 +404,8 @@ footer .tk{
     }
 }
     
-.fade-in {
-        animation: fadeInStart 5s;
+.fadeIn {
+        animation: fadeInStart 5s ease-in-out;
     }
 
 
